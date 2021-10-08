@@ -1,0 +1,18 @@
+package com.atguigu.springcloud.myhandler;
+
+import com.alibaba.csp.sentinel.slots.block.BlockException;
+import com.atguigu.springcloud.entities.CommonResult;
+
+/**
+ * @author DELL
+ * @date 2020/3/23 21:30
+ */
+public class CustomerBlockHandler {
+    public static CommonResult handlerException1(BlockException exception){
+        return new CommonResult(4444,"按客户自定义，global handlerException1");
+    }
+
+    public static CommonResult handlerException2(BlockException exception){
+        return new CommonResult(4444,"按客户自定义，global handlerException2");
+    }
+}

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bfd6191-b1ee-405e-98c9-b0149cc1a93b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-api-commons/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-api-commons/src/main/java/com/atguigu/springcloud/entities/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-config-center-3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-config-center-3344/src/main/java/com/atguigu/springcloud/MainAppConfigCenter3344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-feign-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/OrderFeignMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/service/PaymentFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/service/impl/PaymenFeignServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-order80/src/main/java/com/atguigu/springcloud/OrderMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-order80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-eureka-server7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-eureka-server7001/src/main/java/com/atguigu/springcloud/EurekaMain7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-eureka-server7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-eureka-server7002/src/main/java/com/atguigu/springcloud/EurekaMain7002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/atguigu/springcloud/GateWayMain9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/atguigu/springcloud/config/GateWayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8001/src/main/java/com/atguigu/srpingcloud/PaymentMain8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8001/src/main/java/com/atguigu/srpingcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8001/src/main/java/com/atguigu/srpingcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8001/src/main/java/com/atguigu/srpingcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8001/src/main/java/com/atguigu/srpingcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8002/src/main/java/com/atguigu/srpingcloud/PaymentMain8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8002/src/main/java/com/atguigu/srpingcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8002/src/main/java/com/atguigu/srpingcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8002/src/main/java/com/atguigu/srpingcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8002/src/main/java/com/atguigu/srpingcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-stream-rabbitmq-provider8801/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/StreamMQMain8801.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloud-stream-rabbitmq-provider8801/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-config-nacos-client3377/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/NacosConfigClientMain3377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-consumer-nacos-order83/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/springcloud/OrderNacosMain83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-consumer-nacos-order83/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9001/src/main/java/com/atguigu/srpingcloud/PaymentMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9001/src/main/java/com/atguigu/srpingcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9001/src/main/java/com/atguigu/srpingcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9001/src/main/java/com/atguigu/srpingcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9001/src/main/java/com/atguigu/srpingcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9002/src/main/java/com/atguigu/srpingcloud/PaymentMain9002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9002/src/main/java/com/atguigu/srpingcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9002/src/main/java/com/atguigu/srpingcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9002/src/main/java/com/atguigu/srpingcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9002/src/main/java/com/atguigu/srpingcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/MainApp8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/controller/RateLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/myhandler/CustomerBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../nacos_config.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-account-service2003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-account-service2003/src/main/java/com/atguigu/springcloud/SeataAccountMainApp2003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-account-service2003/src/main/java/com/atguigu/springcloud/config/SeataDataSourceAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-account-service2003/src/main/java/com/atguigu/springcloud/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-account-service2003/src/main/java/com/atguigu/springcloud/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-account-service2003/src/main/java/com/atguigu/springcloud/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-account-service2003/src/main/java/com/atguigu/springcloud/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-account-service2003/src/main/java/com/atguigu/springcloud/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-account-service2003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/java/com/atguigu/springcloud/SeataOrderMainApp2001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/java/com/atguigu/springcloud/config/SeataDataSourceAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/java/com/atguigu/springcloud/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/java/com/atguigu/springcloud/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/java/com/atguigu/springcloud/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/java/com/atguigu/springcloud/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/java/com/atguigu/springcloud/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/java/com/atguigu/springcloud/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-order-service2001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-storage-service2002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-storage-service2002/src/main/java/com/atguigu/springcloud/SeataStorageServiceApplication2002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-storage-service2002/src/main/java/com/atguigu/springcloud/config/SeataDataSourceAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-storage-service2002/src/main/java/com/atguigu/springcloud/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-storage-service2002/src/main/java/com/atguigu/springcloud/dao/StorageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-storage-service2002/src/main/java/com/atguigu/springcloud/domain/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-storage-service2002/src/main/java/com/atguigu/springcloud/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-storage-service2002/src/main/java/com/atguigu/springcloud/service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata-storage-service2002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../seata.sql" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Software/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vLMAZX4lethvkVzcJu3v5tFM1O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bfd6191-b1ee-405e-98c9-b0149cc1a93b" name="Default Changelist" comment="" />
+      <created>1626336772881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626336772881</updated>
+      <workItem from="1626336774375" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

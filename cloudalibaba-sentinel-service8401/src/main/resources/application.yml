@@ -1,0 +1,46 @@
+server:
+  port: 8401
+spring:
+  application:
+    name: cloudalibaba-sentinel-service
+  cloud:
+    nacos:
+      discovery:
+        # nacos服务注册中心地址
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        # 配置Sentinel dashboard地址
+        dashboard: 127.0.0.1:8080
+        # 默认8719端口，假如被占用会自动从8719开始依次+1扫描，直至找到未被占用的端口
+        port: 8719
+#      datasource:
+#        ds:
+#          nacos:
+#            server-addr: 127.0.0.1:8848
+#            dataId: cloudalibaba-sentinel-service
+#            groupId: DEFAULT_GROUP
+#            data-type: json
+#            rule-type: degrade
+  #  数据源基本配置
+  datasource:
+    username: root
+    password: 12345
+    url: jdbc:mysql://localhost:3306/cloud2020?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+# mybatis配置
+mybatis:
+  # config-location: classpath:mybatis/mapper/mybatis-config.xml
+  type-aliases-package: com.atguigu.springcloud.entities
+  # mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: false
+    cache-enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
